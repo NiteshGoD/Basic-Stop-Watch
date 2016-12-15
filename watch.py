@@ -56,6 +56,7 @@ class StopWatch(Frame):
 
 def main():
     root = Tk()
+    root.title("stopwatch")
     sw = StopWatch(root)
     sw.pack(side=TOP)
 
